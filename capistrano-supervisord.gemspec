@@ -15,5 +15,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Capistrano::Supervisord::VERSION
 
-  gem.add_dependency("capistrano")
+  gem.add_dependency("capistrano", "< 3")
 end
